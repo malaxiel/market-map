@@ -136,28 +136,6 @@ const companiesData = [
     "Monthly traffic av 3 month": "19,700"
   },
   {
-    "name": "MOMENTiQ",
-    "website": "https://momentiq.com/",
-    "type": "Agency",
-    "Unified Type": "Agency",
-    "business_model": "Service-based agency model, likely project fees or retainers.",
-    "pricing": "Minimum campaign size starts at around $50,000 for large‑scale TikTok Shop campaigns.",
-    "offer_usp": "A specialist TikTok Shop partner agency focused on converting live commerce into measurable retail performance for major brands.",
-    "sales_points": "Specializes in TikTok Shop Influencer Marketing and end-to-end TikTok Shop LIVE Commerce managed by in-house production teams. Holds multiple TikTok Shop records, including highest LIVE ROAS and most affiliate product revenue in a single LIVE. Ranked #1 TikTok Shop Partner (TSP) in the U.S. for Q2 and Q3 2024. Generated over $130 million in annual revenue for partner brands.",
-    "positioning": "A specialist agency dedicated to scaling TikTok Shop as a repeatable and profitable channel for brands, leveraging a performance-driven, white-glove approach.",
-    "client_profile": "Enterprises and Large Brands seeking to scale on TikTok Shop. Verticals include Automotive, Beauty, B2B, Entertainment, Gaming, Food & Beverage, and Retail. Notable clients include TikTok, The Recording Academy, CANVAS BEAUTY, and Medicube.",
-    "geographical_focus": "Operates in the U.S. with a location in Los Angeles, California.",
-    "social_media_links": "LinkedIn: https://www.linkedin.com/company/momentiq, TikTok: https://www.tiktok.com/@momentiq",
-    "content_strategy_analysis": "MOMENTiQ embraces a ‘Stop Selling, Start Connecting’ philosophy.  Its content strategy focuses on TikTok‑first storytelling, carefully selecting creators who naturally fit each brand to craft cohesive stories that boost sales and foster brand loyalty.",
-    "social_results": "Has generated an average of 30 million U.S. impressions and $300,000 in revenue per LIVE showcase.",
-    "marketing_strategy": "Marketing is heavily based on PR and showcasing record-breaking performance on TikTok Shop, such as generating over $1.5 million in revenue in a single LIVE event for CANVAS BEAUTY.",
-    "technology_offering": "Utilizes its proprietary platform, Modern AI, to provide a unified dashboard for tracking real-time attribution and creative performance.",
-    "technology_functions": "The Modern AI platform provides real-time attribution and creative performance tracking.",
-    "integrations": "As an official TikTok Shop Partner, the agency has deep integrations with the TikTok platform, including TSP, CAP, TAP, and the LIVE Creator Network.",
-    "other_info": "Holds official qualifications for TSP, CAP, TAP, and the LIVE Creator Network on TikTok. The founder, Alex Elsea, previously founded Ubiquitous. The Director of Brand Partnerships, CJoe Anaya, was one of the first hires at TikTok Shop U.S.",
-    "Monthly traffic av 3 month": "0"
-  },
-  {
     "name": "The Influencer Marketing Factory",
     "website": "https://theinfluencermarketingfactory.com/",
     "type": "Agency",
