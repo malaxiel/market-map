@@ -19,7 +19,8 @@
     "technology_functions": "Basic platform functionality, widely considered non-functional for core business operations.",
     "integrations": "No specific software or platform integrations are publicly mentioned.",
     "other_info": "Deal Value Distribution: >$20k (0.75%), >$10k (4.21%), >$5k (22.83%). Client base is primarily small businesses.",
-    "Monthly traffic av 3 month": "4,830"
+    "Monthly traffic av 3 month": "4,830",
+    "has_technology": false
   },
   {
     "name": "GOAT (The Goat Agency)",
@@ -41,7 +42,8 @@
     "technology_functions": "IBEX provides enhanced decision intelligence, real-time content performance tracking and analysis, trend spotting, campaign refinement, and data-backed recommendations for influencer selection and pricing.",
     "integrations": "IBEX integrates with the Amazon DSP, allowing the use of influencer content in targeted advertising. The agency is an official partner of TikTok, YouTube, Snapchat, Meta, LinkedIn, Amazon, and Target.",
     "other_info": "Acquired by WPP in March 2023 and merged with GroupM's INCA to operate under the Goat brand. Winner of numerous awards, including Campaign’s Global Social Media Agency of the Year Finalist for three consecutive years. Issued a public warning in September 2025 regarding recruitment scams using its name.",
-    "Monthly traffic av 3 month": "61,100"
+    "Monthly traffic av 3 month": "61,100",
+    "has_technology": true
   },
   {
     "name": "Ubiquitous",
@@ -63,7 +65,8 @@
     "technology_functions": "The platform's functions include a creator search tool, competitive brand analysis, campaign monitoring with performance tracking, and data export. It does not include negotiation, contracting, or payment processing, which are handled by the agency side.",
     "integrations": "The platform has API access to TikTok data, which enhances its analytics and creator discovery capabilities.",
     "other_info": "Founded in 2021 by Jess Flack. The company is venture capital-backed, having raised $5M in funding. The platform was initially developed for internal agency use before being offered to the public.",
-    "Monthly traffic av 3 month": "56,065"
+    "Monthly traffic av 3 month": "56,065",
+    "has_technology": true
   },
   {
     "name": "Viral Nation",
@@ -85,7 +88,8 @@
     "technology_functions": "Services include influencer marketing, performance marketing, social content production, community management, business intelligence, TikTok marketing, creator sourcing and vetting, brand reputation management, and talent representation.\nProvides a comprehensive suite of services: brand deal sourcing, contract support, content strategy, production management, talent publicity, content syndication, platform diversification, OTT & licensing, original programming, podcasting, and merchandising ventures.",
     "integrations": "CreatorOS™ is described as an end-to-end platform that streamlines workflows, but specific third-party software integrations are not publicly named.\nWorks with a global network of streaming partners and platforms for content syndication, but specific software integrations are not mentioned.",
     "other_info": "Founded in 2014 by Joe Gagliese and Mat Micheli. Has acquired Eight Seven Media and MediaKits. It is a certified TikTok Marketing Partner, Meta Business Partner, and member of IAB and ANA. Viral Nation Talent is the talent representation division within the main company.\n\nThis is the talent representation division of the parent company, Viral Nation. A key feature is the promise of a 'fully in-house experience' with 'unlimited support,' differentiating it from agencies that may outsource certain functions.",
-    "Monthly traffic av 3 month": "55,165"
+    "Monthly traffic av 3 month": "55,165",
+    "has_technology": true
   },
   {
     "name": "Clicks Talent",
@@ -107,7 +111,8 @@
     "technology_functions": "Zano automates influencer discovery and casting: it creates instant talent profiles from influencer links, produces auto‑updating media kits, offers a searchable creator database with filters, and distributes casting calls detailing region, niche, deliverables and budget.",
     "integrations": "Zano operates as a live ecosystem connecting talent agencies and brands; specific third‑party software integrations are not publicly disclosed.",
     "other_info": "Clicks Talent generates over $5 million in annual revenue and partners with more than 5,000 influencers across 60+ countries.  The agency invested US$250 k to build Zano and aims to scale it using AI for smarter creator‑brand matchmaking.",
-    "Monthly traffic av 3 month": "7,335"
+    "Monthly traffic av 3 month": "7,335",
+    "has_technology": true
   },
   {
     "name": "AdParlor",
@@ -129,7 +134,8 @@
     "technology_functions": "AdParlor’s process covers strategy development, influencer sourcing and vetting, contracting and negotiation, content creation oversight, campaign launch and paid amplification.",
     "integrations": "Integrates creator content with paid media placements across major social channels such as Facebook, Instagram, TikTok, YouTube and Snapchat; partners with ad‑tech platforms like Show.gg and MNTN for advanced targeting and measurement (details not widely publicised).",
     "other_info": "Operates from offices in New York, Kansas City and Toronto and offers flexible, contract‑free support to help brands scale influencer marketing bandwidth.",
-    "Monthly traffic av 3 month": "19,700"
+    "Monthly traffic av 3 month": "19,700",
+    "has_technology": true
   },
   {
     "name": "The Influencer Marketing Factory",
@@ -151,7 +157,8 @@
     "technology_functions": "Influencer targeting, campaign management, performance optimization, conversion attribution, and ROAS tracking.",
     "integrations": "No specific third-party integrations are publicly named, but it is an official partner of TikTok and Meta.",
     "other_info": "Ranked #340 on the 2023 Inc. 5000 list of fastest-growing private companies. Recognized as a Top 10 Agency by IMH. Finalist in The Drum Marketing Awards USA.",
-    "Monthly traffic av 3 month": "36,500"
+    "Monthly traffic av 3 month": "36,500",
+    "has_technology": true
   },
   {
     "name": "Socially Powerful",
@@ -173,7 +180,8 @@
     "technology_functions": "ARIA's functions include AI-driven search, campaign visualization, predictive analytics, visual search, natural language prompts, automated outreach, and real-time campaign tracking with detailed ROI analysis.",
     "integrations": "Specific third-party integrations for ARIA are not publicly detailed. The agency leverages the Amazon Creator Marketplace.",
     "other_info": "Privately held. Won the David Ogilvy Award for Best Brand Transformation in 2024 for its Kahlua campaign. Its ARIA platform was recognized in the HelloPartner Top 30 Influencer Technology 2024 list.",
-    "Monthly traffic av 3 month": "55,235"
+    "Monthly traffic av 3 month": "55,235",
+    "has_technology": true
   },
   {
     "name": "Upfluence",
@@ -195,7 +203,8 @@
     "technology_functions": "Influencer search & discovery, relationship management (IRM), campaign management, third-party analytics, automated recruiting, influencer lifecycle management, content review, campaign reporting, audience analysis, e-commerce tools (gifting/seeding), payment processing, social listening, and affiliate management.",
     "integrations": "Extensive integrations including Shopify, WooCommerce, Magento, BigCommerce, Amazon Attribution, Salesforce, HubSpot, Klaviyo, Zapier, Stripe, PayPal, and Hootsuite.",
     "other_info": "Founded in 2013. Successfully completed a SOC 2 audit as of June 2024, demonstrating a strong commitment to data security. Rated 4.8/5 by Influencer Marketing Hub.",
-    "Monthly traffic av 3 month": "389,100"
+    "Monthly traffic av 3 month": "389,100",
+    "has_technology": true
   },
   {
     "name": "Whalar",
@@ -217,7 +226,8 @@
     "technology_functions": "Foam.io centralizes multi-platform metrics, provides AI-generated 'Smart Profiles' for creator onboarding, facilitates pitching with 'Media Kits' and 'Talent Rosters,' detects fake followers and engagement spikes, and analyzes vanishing content. A Chrome Extension embeds real-time data into email workflows.",
     "integrations": "Foam.io has direct certified API access to Instagram, TikTok, YouTube, and Snap for live, first-party data. Whalar is an official marketing partner of Meta, YouTube, TikTok, and Snapchat.",
     "other_info": "Whalar Group is a B Corp certified company. It acquired C Talent, a disabled-led talent management firm, in 2022. The ecosystem also includes a physical creator campus called The Lighthouse.",
-    "Monthly traffic av 3 month": "9,535"
+    "Monthly traffic av 3 month": "9,535",
+    "has_technology": true
   },
   {
     "name": "Creator.co",
@@ -239,7 +249,8 @@
     "technology_functions": "Creator discovery, campaign brief builder, automated outreach, direct chat, content approval dashboard, payment management, product shipment tracking, and real-time analytics.",
     "integrations": "Integrates with Shopify, TikTok Shop, Google Analytics, and affiliate networks including Rakuten, Impact, Awin, and Refersion.",
     "other_info": "Recognized as a Leader by G2 in its Summer 2024 report. Some users have reported issues with payout and deposit processes. There is no formal, upfront creator vetting process; quality control is managed at the campaign level by the brand.",
-    "Monthly traffic av 3 month": "98,235"
+    "Monthly traffic av 3 month": "98,235",
+    "has_technology": true
   },
   {
     "name": "Statusphere",
@@ -261,7 +272,8 @@
     "technology_functions": "Automated influencer matching, campaign execution, fulfillment and product seeding management, post verification, and reporting.",
     "integrations": "Specific integrations are not detailed, but its focus on consumer brands suggests relevance to e-commerce ecosystems.",
     "other_info": "Founded by Kristen Wiley. Rated 4.6/5 on Capterra. The platform focuses exclusively on a vetted community of micro-influencers.",
-    "Monthly traffic av 3 month": "198,800"
+    "Monthly traffic av 3 month": "198,800",
+    "has_technology": true
   },
   {
     "name": "Influencity",
@@ -283,7 +295,8 @@
     "technology_functions": "Influencer discovery with advanced filters, influencer relationship management (IRM), campaign management, real-time reporting, social listening and monitoring, fake follower detection, audience analysis, and product seeding management.",
     "integrations": "Integrates with Shopify, WooCommerce, HubSpot, and Salesforce. Supports multi-currency payments.",
     "other_info": "Founded in 2014 in Valencia, Spain. Listed as a major vendor in the global influencer marketing platform market.",
-    "Monthly traffic av 3 month": "133,900"
+    "Monthly traffic av 3 month": "133,900",
+    "has_technology": true
   },
   {
     "name": "TRIBE",
@@ -305,7 +318,8 @@
     "technology_functions": "Campaign brief builder, creator pitching workflow, content approval system, centralized campaign management, and real-time analytics dashboard.",
     "integrations": "Direct API integrations with TikTok, Instagram, Snapchat, and Pinterest for data. Offers tools to boost organic posts into paid ads on Meta, TikTok, and Pinterest.",
     "other_info": "Founded in 2014. The platform fee is only charged on content that the brand approves and purchases.",
-    "Monthly traffic av 3 month": "86,500"
+    "Monthly traffic av 3 month": "86,500",
+    "has_technology": true
   },
   {
     "name": "Influential",
@@ -327,7 +341,8 @@
     "technology_functions": "AI-powered creator discovery, brand-influencer matching based on 47 personality traits, brand safety analysis (profanity, tone), computer vision for image analysis, and measurement of offline conversions.",
     "integrations": "Developer partner of IBM Watson. Strategic partner of WME and Oracle. Facebook and Instagram Marketing Partner. API partnerships with all major social media platforms. Preferred partnerships with Circana, Advantage Solutions, Amazon, and LiveRamp for conversion tracking.",
     "other_info": "Founded in 2013. Acquired by Publicis Groupe on July 25, 2024. Previously raised over $40.3 million in funding. Does not rely on third-party data, instead using anonymized first-party data from influencer followers.",
-    "Monthly traffic av 3 month": "21,000"
+    "Monthly traffic av 3 month": "21,000",
+    "has_technology": true
   },
   {
     "name": "The Shelf",
@@ -349,7 +364,8 @@
     "technology_functions": "Automated influencer sourcing, data‑driven matching, campaign workflow management, content optimisation and comprehensive analytics reporting.",
     "integrations": "Integrates campaigns across major social platforms such as Instagram, TikTok, YouTube and Facebook.",
     "other_info": "The Shelf has been recognised as a five‑time Inc. 5000 honouree and analyses over one billion posts to inform its data‑driven campaigns.",
-    "Monthly traffic av 3 month": "20,965"
+    "Monthly traffic av 3 month": "20,965",
+    "has_technology": true
   },
   {
     "name": "Purple Goat",
@@ -371,7 +387,8 @@
     "technology_functions": null,
     "integrations": "Produces campaigns across mainstream social platforms such as Instagram, TikTok and YouTube.",
     "other_info": "Founded in 2020, Purple Goat is based in London and has been recognised with multiple awards for diversity and inclusion. Over half of its staff are disabled, underscoring its commitment to authentic representation.",
-    "Monthly traffic av 3 month": "9,265"
+    "Monthly traffic av 3 month": "9,265",
+    "has_technology": false
   },
   {
     "name": "Ykone",
@@ -393,7 +410,8 @@
     "technology_functions": "Campaygn is used to find and qualify influencers, vet profiles (analyzing follower growth, demographics, 'inactive' followers), manage campaigns, measure ROI, and conduct competitive analysis with dynamic leaderboards.",
     "integrations": "The Campaygn platform identifies and analyzes influencers across Instagram, TikTok, and YouTube. No specific official partner badges (e.g., Meta, TikTok) were mentioned in the provided information.",
     "other_info": "Founded in 2008. Acquired by auFeminin.com according to one data source. Has expanded through investments in other agencies like Atlas Agency. The group includes talent management division BOLD Management and performance agency Kyn.",
-    "Monthly traffic av 3 month": "13,565"
+    "Monthly traffic av 3 month": "13,565",
+    "has_technology": true
   },
   {
     "name": "Afluencer",
@@ -415,7 +433,8 @@
     "technology_functions": "Creator directory with search filters (niche, location, follower count), collaboration posting, direct messaging for negotiation, and product catalog import via e-commerce apps.",
     "integrations": "Offers dedicated apps for Shopify (the 'Shopify VIP' app) and BigCommerce.",
     "other_info": "The platform emphasizes a self-serve model, meaning brands are responsible for all vetting, negotiation, and management. Some user skepticism has been noted regarding its suitability for established brands.",
-    "Monthly traffic av 3 month": "144,865"
+    "Monthly traffic av 3 month": "144,865",
+    "has_technology": true
   },
   {
     "name": "Later Influence (previously Mavrck)",
@@ -437,7 +456,8 @@
     "technology_functions": "EdgeAI uses historical social data to predict outcomes; proprietary data and AI predictions identify the right creators, content and channels; the platform manages campaign creation, activation, optimisation and measurement; and it includes analytics and reporting to make influencer marketing as repeatable and measurable as other media investments.",
     "integrations": "Official marketing partner with Pinterest and TikTok; integrates with e-commerce and affiliate platforms such as Rakuten and supports social media scheduling, social listening, link-in-bio and creator enrollment tools as part of the wider Later suite.",
     "other_info": "Later acquired influencer marketing pioneer Mavrck in 2022, rebranding the combined platform as Later Influence. The company's EdgeAI engine is trained on decades of social data and is positioned as a leader in predictive influencer marketing.",
-    "Monthly traffic av 3 month": "1,766,660"
+    "Monthly traffic av 3 month": "1,766,660",
+    "has_technology": true
   },
   {
     "name": "Skeepers",
@@ -459,7 +479,8 @@
     "technology_functions": "Smart matching to connect brands with micro and nano influencers, automated campaign execution and logistics, gifting management, and real‑time analytics and reporting.",
     "integrations": "Supports campaigns on TikTok Shop, Instagram Shopping and YouTube and works alongside Skeepers modules for verified reviews, feedback management and brand communities.",
     "other_info": "Skeepers originated from the influencer platform Octoly and is headquartered in France.",
-    "Monthly traffic av 3 month": "1,733,330"
+    "Monthly traffic av 3 month": "1,733,330",
+    "has_technology": true
   },
   {
     "name": "Heepsy",
@@ -481,7 +502,8 @@
     "technology_functions": "Advanced influencer search, audience and performance analytics, authenticity analysis, influencer relationship management (IRM) via lists, individual and bulk outreach, campaign offer pages, reporting, and media monitoring.",
     "integrations": "Integrates with Shopify. The 'Advanced' plan mentions 'Multiple E-commerce integrations.'",
     "other_info": "Founded in 2016. Investors include Google for Startups and MassChallenge. Rated 4.5/5 on G2.",
-    "Monthly traffic av 3 month": "215,165"
+    "Monthly traffic av 3 month": "215,165",
+    "has_technology": true
   },
   {
     "name": "CreatorIQ",
@@ -503,7 +525,8 @@
     "technology_functions": "AI-powered discovery, influencer CRM, unified program management, workflow automation, content approvals (via DocuSign), global creator payments (CreatorIQ Pay), creator affiliate marketing, competitive benchmarking, and social listening.",
     "integrations": "Extensive integrations. API: ExchangeIQ for BI tools/CRMs (Salesforce). E-commerce: Shopify. Payments: Stripe, PayPal. Analytics: Google Analytics, LiveRamp. Affiliate Networks: Awin, Impact, Rakuten, CJ, Partnerize, ShareASale. Social Platforms: Deep integrations with Meta, Snapchat, TikTok, YouTube.",
     "other_info": "Founded in 2014. Has raised $80.8 million in funding. ISO/IEC 27001:2022 certified and GDPR/CCPA compliant.",
-    "Monthly traffic av 3 month": "191,000"
+    "Monthly traffic av 3 month": "191,000",
+    "has_technology": true
   },
   {
     "name": "Collabstr",
@@ -525,7 +548,8 @@
     "technology_functions": "Influencer search, campaign posting (brands receive applications), instant messaging, analytics tracking, campaign brief templates, contract templates, and a secure escrow payment system.",
     "integrations": "Uses Stripe for brand payments (credit/debit cards) and Dots for creator payouts (PayPal, CashApp, Venmo).",
     "other_info": "Collabstr is explicitly not an agency. The platform has mobile apps for iOS and Android. A noted limitation is the lack of advanced targeting and minimal campaign strategy consulting.",
-    "Monthly traffic av 3 month": "569,865"
+    "Monthly traffic av 3 month": "569,865",
+    "has_technology": true
   },
   {
     "name": "Greenhouse Communications",
@@ -547,7 +571,8 @@
     "technology_functions": "Services include insights and research, strategy and messaging, creative and content production (film, animation, reports), and activation campaigns (digital advertising, social media, media relations, key opinion leader engagement).",
     "integrations": "No specific software integrations are mentioned.",
     "other_info": "Founded in 2003/2004 by Anna Guyer. It is a fully employee-owned company. The website experienced 404 errors on key pages during research attempts.",
-    "Monthly traffic av 3 month": "9,300"
+    "Monthly traffic av 3 month": "9,300",
+    "has_technology": false
   },
   {
     "name": "Takumi",
@@ -569,7 +594,8 @@
     "technology_functions": "Influencer discovery and vetting ('TAKUMI creator index'), background checks, briefing, contracting, content submissions/approvals, payments, campaign tracking, real-time reporting, and brand lift studies.",
     "integrations": "The platform allows for creator-driven amplification and paid social advertising, but specific third-party integrations are not listed. Uses HubSpot Marketing Hub.",
     "other_info": "Founded in 2014. Acquired Unieed (Aug 2021) and Qibitech (Sep 2020). Content licensing provides brands a one-year, royalty-free, non-exclusive license for digital use unless otherwise negotiated.",
-    "Monthly traffic av 3 month": "4,865"
+    "Monthly traffic av 3 month": "4,865",
+    "has_technology": true
   },
   {
     "name": "Obviously",
@@ -591,7 +617,8 @@
     "technology_functions": "Advanced data analytics, real-time reporting, 'always-on brand safety checks,' and a competitive analysis tool called 'Share of Influence.' The platform also supports the management of custom creator networks.",
     "integrations": "Official TikTok and Meta Partner, indicating deep platform integration.",
     "other_info": "Acquired by VMLY&R, now a VML company within the WPP network. Founded in 2014 by Mae Karwowski and Maxime Domain. Named 'Influencer Marketing Agency of the Year 2024' in France. Its services agreement includes forward-thinking clauses on using public content for AI modeling.",
-    "Monthly traffic av 3 month": "232,235"
+    "Monthly traffic av 3 month": "232,235",
+    "has_technology": true
   },
   {
     "name": "Avenue Z (formerly The Snow Agency)",
@@ -613,7 +640,8 @@
     "technology_functions": "Influencer discovery, influencer relationship management, campaign management, performance analysis (tracking engagement, conversions, ROI), and AI-powered marketing automation.",
     "integrations": "Shopify Plus Partner, Google, Meta, TikTok, Klaviyo, and Attentive.",
     "other_info": "Avenue Z is the new brand identity for a network of acquired agencies, including The Snow Agency (acquired June 2023). The company is led by Chairman and CEO Jeffrey Herzog and funded by Herzog and Baleon Capital.",
-    "Monthly traffic av 3 month": "31,000"
+    "Monthly traffic av 3 month": "31,000",
+    "has_technology": true
   },
   {
     "name": "Strudel",
@@ -635,7 +663,8 @@
     "technology_functions": "Geographic segmentation, performance metric analysis for any creator, song, or hashtag, and real-time, automated campaign reporting.",
     "integrations": "No specific integrations mentioned, but its focus on TikTok implies deep platform knowledge.",
     "other_info": "Founded in 2019. Reported Net Assets of £408.59K as of Dec 31, 2024. The company is actively hiring for TikTok Shop-related roles, indicating a strong focus on social commerce.",
-    "Monthly traffic av 3 month": "210"
+    "Monthly traffic av 3 month": "210",
+    "has_technology": true
   },
   {
     "name": "Ed Hopkins PR",
@@ -657,7 +686,8 @@
     "technology_functions": "Not applicable.",
     "integrations": "No specific integrations are mentioned.",
     "other_info": "Operates under the legal trading name of Cooper & Hopkins Limited. Several key pages on the official website were returning 404 errors during research, suggesting potential website issues.",
-    "Monthly traffic av 3 month": "4,700"
+    "Monthly traffic av 3 month": "4,700",
+    "has_technology": false
   },
   {
     "name": "TikMarketing",
@@ -679,7 +709,8 @@
     "technology_functions": "Not applicable.",
     "integrations": "As an official TikTok Shop Partner, the agency has deep integration and expertise with the TikTok platform's affiliate, live, video, and ad systems.",
     "other_info": "The agency notes the standard TikTok Shop commission fees (1.8% for the first 90 days, then 5%) for transparency with clients.",
-    "Monthly traffic av 3 month": "7,100"
+    "Monthly traffic av 3 month": "7,100",
+    "has_technology": false
   },
   {
     "name": "Collectively",
@@ -701,7 +732,8 @@
     "technology_functions": "Data-driven strategy, influencer matchmaking, and full-funnel reporting.",
     "integrations": "Not provided in context.",
     "other_info": "Founded in 2013. Acquired by You & Mr Jones (now The Brandtech Group) in August 2020 and merged with TheAmplify. Named one of the world's Most Innovative Companies by Fast Company in 2018. Creator compensation is project-based with standard payment terms of net 60 via PayPal.",
-    "Monthly traffic av 3 month": "11,265"
+    "Monthly traffic av 3 month": "11,265",
+    "has_technology": false
   },
   {
     "name": "Underscore Talent",
@@ -723,7 +755,8 @@
     "technology_functions": "The company's focus is on management services, but its LABS division explores web3 technologies for talent.",
     "integrations": "Not applicable.",
     "other_info": "Founded in 2021. In December 2022, TheSoul Publishing acquired a majority stake in the company. The company has a charitable partnership with The Salvation Army.",
-    "Monthly traffic av 3 month": "6,735"
+    "Monthly traffic av 3 month": "6,735",
+    "has_technology": true
   },
   {
     "name": "Shine Talent Group",
@@ -745,7 +778,8 @@
     "technology_functions": "Not applicable.",
     "integrations": "Not applicable.",
     "other_info": "The company's origins trace back to Shine PR (2015), with the influencer division launching in late 2015 and rebranding to Shine Talent Group in 2021. Founded by Jess Hunichen and Emily Ward.",
-    "Monthly traffic av 3 month": "3,765"
+    "Monthly traffic av 3 month": "3,765",
+    "has_technology": false
   },
   {
     "name": "Digital Brand Architects (DBA)",
@@ -767,7 +801,8 @@
     "technology_functions": "Not applicable.",
     "integrations": "Not applicable.",
     "other_info": "Founded in 2010 by Raina Penchansky. Acquired by United Talent Agency (UTA) in February 2019. Recognized as one of Ad Age’s Best Places to Work. Partners with the Create & Cultivate conference series.",
-    "Monthly traffic av 3 month": "8,835"
+    "Monthly traffic av 3 month": "8,835",
+    "has_technology": false
   },
   {
     "name": "AWISEE",
@@ -789,7 +824,8 @@
     "technology_functions": "Not applicable.",
     "integrations": "Not applicable.",
     "other_info": "Founded in 2018 by Gustav Andersson. The company is accessible via email, Telegram, and WhatsApp, indicating a flexible and modern communication approach.",
-    "Monthly traffic av 3 month": "124,600"
+    "Monthly traffic av 3 month": "124,600",
+    "has_technology": false
   },
   {
     "name": "Trend",
@@ -811,7 +847,8 @@
     "technology_functions": "Project brief creation, creator application review and approval, content submission and approval workflow, automated project timelines, in-platform messaging, and creator payment handling.",
     "integrations": "No direct software integrations are mentioned. The content output is designed to be universally compatible with e-commerce platforms (like Shopify), social channels, and ad managers.",
     "other_info": "Trend recently joined forces with Soona, a virtual photo and video shoot platform. Creators on the platform are not required to have a minimum social follower count.",
-    "Monthly traffic av 3 month": "99,765"
+    "Monthly traffic av 3 month": "99,765",
+    "has_technology": true
   },
   {
     "name": "Aspire",
@@ -833,7 +870,8 @@
     "technology_functions": "Creator discovery (search engine and marketplace), campaign and relationship management, content management and rights acquisition, sales generation (unique discount codes and affiliate links), and creator payments (AspirePay).",
     "integrations": "Deep integrations with Shopify, WooCommerce, Meta, TikTok, and Pinterest. Also integrates with affiliate networks like CJ, ShareASale, and Awin to centralize conversion data. Offers a REST API for custom workflows.",
     "other_info": "SOC 2 Type 2 certified, as well as GDPR and CCPA compliant. Aspire states that it never takes a commission from creators' earnings.",
-    "Monthly traffic av 3 month": "165,835"
+    "Monthly traffic av 3 month": "165,835",
+    "has_technology": true
   },
   {
     "name": "AnyMind Group / AnyTag",
@@ -855,7 +893,8 @@
     "technology_functions": "Data-driven influencer discovery, end-to-end campaign management, performance tracking, hashtag and trend analytics, UGC tracking, and AI-powered content generation and recommendations.",
     "integrations": "AnyTag integrates with AnyX, which in turn connects to Shopify, TikTok Shop, Shopee, Lazada, and Qoo10. The overarching AnyAI platform integrates with over 40 global services including Facebook, TikTok, Amazon, and Google Ads.",
     "other_info": "Founded in Singapore in 2016. The company employs over 2,000 people. Its AnyCreator network supports influencers across the APAC region.",
-    "Monthly traffic av 3 month": "147,365"
+    "Monthly traffic av 3 month": "147,365",
+    "has_technology": true
   },
   {
     "name": "Hypefy",
@@ -877,7 +916,8 @@
     "technology_functions": "AI Campaign Builder, automated influencer outreach, centralized collaboration dashboard (Flywheel), integrated contracts and payments, AI-powered content review, and a real-time performance tracking dashboard with AI-generated report summaries.",
     "integrations": "The platform's AI actively scans Instagram and TikTok for influencer discovery. Specific third-party integrations are not detailed.",
     "other_info": "Founded in 2021. Hypefy has a dual presence with legal entities in the US (Delaware) and Croatia.",
-    "Monthly traffic av 3 month": "56,100"
+    "Monthly traffic av 3 month": "56,100",
+    "has_technology": true
   },
   {
     "name": "Kobe Global Technologies",
@@ -899,7 +939,8 @@
     "technology_functions": "The AI analyzes 26 data points for hyper-relevant matching and provides campaign tracking dashboards.",
     "integrations": "Official Facebook Business Partner and a partner with TikTok.",
     "other_info": "Founded in 2016. The name Kobe (口碑) means 'word-of-mouth' in Chinese. Listed on the Singapore government portal beglobalready.gov.sg with a 'Good Company Report' for 2023.",
-    "Monthly traffic av 3 month": "17,200"
+    "Monthly traffic av 3 month": "17,200",
+    "has_technology": true
   },
   {
     "name": "Pietra",
@@ -921,7 +962,8 @@
     "technology_functions": "AI-powered supplier sourcing and negotiation, AI design and content generation, AI-powered inventory forecasting, automated marketing (influencer outreach, content creation, competitor monitoring), and e-commerce storefront management.",
     "integrations": "Deeply integrates with key e-commerce and marketing platforms, including Shopify, Amazon, TikTok Shop, Wix, WooCommerce, Meta, and Google.",
     "other_info": "Co-founded in 2019 by former Uber employees Ronak Trivedi (CEO) and Pan Pan (CTO).",
-    "Monthly traffic av 3 month": "125,435"
+    "Monthly traffic av 3 month": "125,435",
+    "has_technology": true
   },
   {
     "name": "SuperOrdinary",
@@ -943,7 +985,8 @@
     "technology_functions": "Brand Management & Strategy, E-Commerce & Shop Management, Paid Media, Data Analysis, Creative & Content Strategy, Demand Planning & Forecasting, and Creator Live Ops.",
     "integrations": "Certified TikTok Shop partner. Manages brand growth on TikTok Shop, Amazon, and other platforms.",
     "other_info": "Raised a $58 million Series B round in 2023, boosting its valuation to over $800 million. Launched SuperOrdinary Studios in July 2025 to focus on creator-led entertainment fused with social commerce.",
-    "Monthly traffic av 3 month": "4,700"
+    "Monthly traffic av 3 month": "4,700",
+    "has_technology": false
   },
   {
     "name": "Z Media",
@@ -965,7 +1008,8 @@
     "technology_functions": "The functions of TokShopOS™ are not detailed, but it likely supports the agency's management of content, affiliates, and shop operations on TikTok.",
     "integrations": "As an official TikTok Shop Partner, the agency has deep integration with the TikTok platform.",
     "other_info": "Founded in 2020 by Remy.",
-    "Monthly traffic av 3 month": "985"
+    "Monthly traffic av 3 month": "985",
+    "has_technology": true
   },
   {
     "name": "ShopShops",
@@ -987,7 +1031,8 @@
     "technology_functions": "Seller storefront creation, inventory management, live show production and broadcasting, and payment processing.",
     "integrations": "Partners with Shop Pay and Afterpay for payments and Entrupy for luxury goods authentication.",
     "other_info": "ShopShops is the sole owner of all rights to the Live Shows produced on its platform. Payouts to sellers are initiated when their payable balance exceeds $2,000 USD or 30 days have passed since the last payment.",
-    "Monthly traffic av 3 month": "14,700"
+    "Monthly traffic av 3 month": "14,700",
+    "has_technology": true
   },
   {
     "name": "Gushcloud",
@@ -1009,7 +1054,8 @@
     "technology_functions": "AI-powered influencer selection, campaign insights, and creator monetization tools.",
     "integrations": "As a partner for YouTube's Creator Solutions program, it has deep integration with YouTube. It also executes campaigns on platforms like LazLive and TikTok Shop.",
     "other_info": "Founded in 2011. The founders bought back the company from Yello Digital Marketing Group in 2018. Co-founder Althea Lim has received numerous leadership awards.",
-    "Monthly traffic av 3 month": "8,300"
+    "Monthly traffic av 3 month": "8,300",
+    "has_technology": false
   },
   {
     "name": "Partipost",
@@ -1031,7 +1077,8 @@
     "technology_functions": "Influencer selection, campaign tracking and analytics, content submission and approval, and creator payment management.",
     "integrations": "Integrates with Shopee's Affiliate Marketing Solution (AMS). Supports campaigns on TikTok Shop.",
     "other_info": "Founded in 2016. Raised a $7M Series B round in October 2022. The platform emphasizes actual payments for creators, rather than just product seeding.",
-    "Monthly traffic av 3 month": "27,335"
+    "Monthly traffic av 3 month": "27,335",
+    "has_technology": true
   },
   {
     "name": "VoxFeed",
@@ -1053,7 +1100,8 @@
     "technology_functions": "Profile segmentation, content management, content review and approval, real-time metrics dashboard, and payment processing.",
     "integrations": "Offers a Shopify integration for recruiting brand ambassadors.",
     "other_info": "Founded in 2012. Received seed funding from investors like GAIN Capital and Sage Venture Partners. Recent news from March 2025 indicated that the music-focused division of VoxFeed was for sale.",
-    "Monthly traffic av 3 month": "8,700"
+    "Monthly traffic av 3 month": "8,700",
+    "has_technology": false
   },
   {
     "name": "FLUVIP",
@@ -1075,7 +1123,8 @@
     "technology_functions": "Predictive analytics for campaign results, real-time reporting, certified payments, influencer identification across multiple channels, and user reaction measurement for segmentation.",
     "integrations": "Supports campaigns on Twitter, Facebook, Instagram, and YouTube.",
     "other_info": "Founded in 2013. Now part of Cisneros Interactive. Has completed five funding rounds, including a Series A.",
-    "Monthly traffic av 3 month": "6,400"
+    "Monthly traffic av 3 month": "6,400",
+    "has_technology": true
   },
   {
     "name": "Airfluencers",
@@ -1097,7 +1146,8 @@
     "technology_functions": "Campaign management, influencer discovery with extensive filters, and financial organization.",
     "integrations": "Utilizes tools like WordPress.org and Google Tag Manager.",
     "other_info": "Founded in 2016. Funded in a seed round by BoostLAB.",
-    "Monthly traffic av 3 month": "7,000"
+    "Monthly traffic av 3 month": "7,000",
+    "has_technology": true
   },
   {
     "name": "Squid",
@@ -1119,7 +1169,8 @@
     "technology_functions": "AI-powered influencer identification (using 70+ metrics), campaign management, and performance tracking.",
     "integrations": "Official partner of the TikTok Creative Exchange (TTCX).",
     "other_info": "Founded in 2014. Operates as Squid Creators and is part of the Wake ecosystem.",
-    "Monthly traffic av 3 month": "2,400"
+    "Monthly traffic av 3 month": "2,400",
+    "has_technology": true
   },
   {
     "name": "Influency.me",
@@ -1141,7 +1192,8 @@
     "technology_functions": "Influencer search engine with over 20 filters, campaign planning, contract management, automated content capture, results measurement, and an automated 'Influencer Relationship Scoring' (IRS) system.",
     "integrations": "Integrates with tools like WooCommerce and WordPress.",
     "other_info": "Established in 2018. Raised a Series A round in 2021.",
-    "Monthly traffic av 3 month": "35,265"
+    "Monthly traffic av 3 month": "35,265",
+    "has_technology": true
   },
   {
     "name": "Modash",
@@ -1163,7 +1215,8 @@
     "technology_functions": "Influencer Marketing API, AI-powered discovery, audience-targeted influencer search, conversion rate attribution, influencer relationship management, tracking, and payments.",
     "integrations": "Key integrations with Shopify and email platforms.",
     "other_info": "Founded in 2018. Acquired Promoty in January 2025. Raised $14 million across two funding rounds.",
-    "Monthly traffic av 3 month": "721,100"
+    "Monthly traffic av 3 month": "721,100",
+    "has_technology": true
   },
   {
     "name": "HypeAuditor",
@@ -1185,7 +1238,8 @@
     "technology_functions": "Influencer discovery, analytics with 35+ metrics and fraud detection, campaign management, media planning, market and competitor analysis, e‑commerce monitoring, payment processing, Chrome extension, Zapier integration and an API.",
     "integrations": "Integrates with PayPal for influencer payments and offers a Chrome extension, Zapier integration and an API for workflow automation.",
     "other_info": "Founded in 2017 with headquarters linked to Indianapolis, Estonia and Cyprus. Funded by Embria.",
-    "Monthly traffic av 3 month": "879,800"
+    "Monthly traffic av 3 month": "879,800",
+    "has_technology": true
   },
   {
     "name": "Buzzoole",
@@ -1207,6 +1261,7 @@
     "technology_functions": "Discovery module for influencer search and selection using advanced filters and proprietary metrics; Tracker to monitor creators and brand mentions; Campaign Management to manage programmes; and Check Up to analyse influencer marketing performance.",
     "integrations": "Supports campaigns on major social platforms such as Instagram, YouTube and TikTok.",
     "other_info": "Founded in 2013 and headquartered in Milan, Italy. The company has raised multiple funding rounds and serves clients such as Amazon, Canon, Samsung and Bacardi.",
-    "Monthly traffic av 3 month": "7,800"
+    "Monthly traffic av 3 month": "7,800",
+    "has_technology": true
   }
 ]
