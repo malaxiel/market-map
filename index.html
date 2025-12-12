@@ -1270,8 +1270,15 @@
     };
 
     const hasTech = (company) => {
+      // Platform type automatically has tech
+      if (company.type?.toLowerCase().includes('platform')) return true;
+
       const tech = company.technology_offering?.toLowerCase() || '';
-      return tech && !tech.includes('n/a') && !tech.includes('not ') && tech.length > 15;
+      if (!tech || tech.includes('n/a') || tech.includes('not available') || tech.includes('no specific') || tech.includes('minimal')) return false;
+
+      // Check for specific technology indicators
+      const techKeywords = ['ai', 'platform', 'proprietary', 'software', 'saas', 'algorithm', 'machine learning', 'automation', 'api', 'dashboard', 'analytics platform', 'data platform', 'crm', 'self-serve', 'self-service', 'marketplace'];
+      return techKeywords.some(keyword => tech.includes(keyword));
     };
 
     const getClientSegment = (clientProfile = '') => {
