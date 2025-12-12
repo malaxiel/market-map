@@ -1356,7 +1356,7 @@ export default function InfluencerMarketMap() {
       hasTech: hasTech(c),
       clientSegment: getClientSegment(c.client_profile),
       techCategory: getTechCategory(c),
-      trafficBucket: getTrafficBucket(c.monthly_traffic)
+      trafficBucket: getTrafficBucket(parseFloat((c['Monthly traffic av 3 month'] || '0').replace(/,/g, '')))
     }));
   }, []);
 
@@ -1538,8 +1538,12 @@ export default function InfluencerMarketMap() {
   // Traffic Data Sort
   const trafficData = useMemo(() => {
     return filteredCompanies
-      .filter(c => c.monthly_traffic !== undefined && c.monthly_traffic !== null)
-      .sort((a, b) => b.monthly_traffic - a.monthly_traffic);
+      .filter(c => c['Monthly traffic av 3 month'])
+      .sort((a, b) => {
+        const aTraffic = parseFloat((a['Monthly traffic av 3 month'] || '0').replace(/,/g, ''));
+        const bTraffic = parseFloat((b['Monthly traffic av 3 month'] || '0').replace(/,/g, ''));
+        return bTraffic - aTraffic;
+      });
   }, [filteredCompanies]);
 
   return (
@@ -1752,8 +1756,9 @@ export default function InfluencerMarketMap() {
             <h2 className="text-lg font-semibold text-slate-200 mb-4">Monthly Traffic Comparison</h2>
             <div className="space-y-3">
               {trafficData.map(company => {
-                const maxTraffic = trafficData[0]?.monthly_traffic || 1;
-                const widthPercent = (company.monthly_traffic / maxTraffic) * 100;
+                const maxTraffic = parseFloat((trafficData[0]?.['Monthly traffic av 3 month'] || '1').replace(/,/g, ''));
+                const companyTraffic = parseFloat((company['Monthly traffic av 3 month'] || '0').replace(/,/g, ''));
+                const widthPercent = (companyTraffic / maxTraffic) * 100;
 
                 return (
                   <div key={company.id} className="flex items-center gap-3 group cursor-pointer" onClick={() => setSelectedCompany(company)}>
@@ -1766,7 +1771,7 @@ export default function InfluencerMarketMap() {
                         style={{ width: `${Math.max(widthPercent, 0.5)}%` }}
                       ></div>
                       <span className="absolute left-2 text-xs font-medium text-white drop-shadow-md">
-                        {company.monthly_traffic ? company.monthly_traffic.toLocaleString() : 'N/A'}
+                        {company['Monthly traffic av 3 month'] || 'N/A'}
                       </span>
                     </div>
                     <div className="w-24 shrink-0 text-xs text-slate-500">
@@ -1842,7 +1847,7 @@ export default function InfluencerMarketMap() {
                   <span className="px-2 py-0.5 bg-slate-800 rounded text-xs text-slate-300">{selectedCompany.clientSegment}</span>
                   <span className="px-2 py-0.5 bg-slate-800 rounded text-xs text-slate-300">{selectedCompany.techCategory}</span>
                   <span className="px-2 py-0.5 bg-slate-800 rounded text-xs text-slate-300">
-                    Traffic: {selectedCompany.monthly_traffic ? selectedCompany.monthly_traffic.toLocaleString() : 'N/A'}
+                    Traffic: {selectedCompany['Monthly traffic av 3 month'] || 'N/A'}
                   </span>
                 </div>
               </div>
