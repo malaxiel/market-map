@@ -1,25 +1,15 @@
 const fs = require('fs');
+const path = require('path');
 
-const jsonPath = 'updated_companies.json';
 const htmlPath = 'index.html';
 const jsxPath = 'influencer-market-map.jsx';
 
-const newData = fs.readFileSync(jsonPath, 'utf8');
+const rawData = fs.readFileSync('/Users/dmitro/Desktop/Работа/SquaddApp/market-map/Grail_Employee_Competitors_v4.json', 'utf8');
+const newData = JSON.parse(rawData.replace(/:\s*NaN/g, ': null'));
 
 // Helper to replace data in file
 function updateFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf8');
-    // Regex to match the companiesData const. 
-    // It assumes: const companiesData = [ ... ];
-    // We'll replace from `const companiesData = [` to the matching `];`
-
-    // Simple regex might fail if there are nested brackets, but standard JSON dump usually doesn't have tricky JS syntax issues.
-    // However, the existing file has comments or formatting.
-    // Let's match `const companiesData = [` until `\n];` or similar.
-
-    // A safer way: Find `const companiesData =` and find the FIRST `[` after it.
-    // Then find the matching closing `]` for that array.
-    // Just using a regex for the start and knowing the structure is `const companiesData = [...];`
 
     const startMarker = 'const companiesData = [';
     const startIndex = content.indexOf(startMarker);
@@ -29,12 +19,6 @@ function updateFile(filePath) {
         return;
     }
 
-    // Find the end of the array. It's a valid JSON array so we can search for the closing `];` 
-    // OR we can just visually Inspect that it ends with `];` in the file.
-    // Let's assume standard formatting: starts at `const companiesData = [` and ends with `];` 
-    // But there might be code AFTER it.
-
-    // Let's use a bracket counter to be safe.
     let openBrackets = 0;
     let endIndex = -1;
     let foundStart = false;
@@ -58,7 +42,7 @@ function updateFile(filePath) {
     }
 
     const newContent = content.slice(0, startIndex) +
-        `const companiesData = ${newData}` +
+        `const companiesData = ${JSON.stringify(newData, null, 2)}` +
         content.slice(endIndex + 1);
 
     fs.writeFileSync(filePath, newContent, 'utf8');
