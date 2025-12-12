@@ -6,10 +6,10 @@ const companiesData = [
   {
     "name": "GRAIL Talent",
     "website": "https://grail-talent.com/",
-    "type": "Mix (Talent Management Company & Platform)",
-    "Unified Type": "Mix (Talent Management Company & Platform)",
-    "business_model": "Commission-based model for talent representation. For brands, it offers a subscription-based platform (GrailX) with added commission fees.",
-    "pricing": "For creators, there are no fees. For brands using the GrailX platform, the pricing is tiered: GrailX Standard is $350/month + 5% agency commission + 5% creator commission. GrailX Pro is $900/month + 3% agency commission + 5% creator commission. Both plans offer flat-fee talent booking.",
+    "type": "Talent Management",
+    "Unified Type": "Talent Management",
+    "business_model": "97% Talent Management (Commission-based). Monthly GMV ~$1M, Revenue ~$200-250k. GrailX platform is a negligible part of business.",
+    "pricing": "20% commission on influencer integrations. +5% fee for 48-hour early payout (standard payout is ~30 days). Avg deal size ~$4,500.",
     "offer_usp": "Connects creators with over 65,000 brand collaborations and provides a flexible infrastructure for talent growth, unlocking career paths beyond social media.",
     "sales_points": "Secured over 65,000 brand collaborations for its 1000+ creators. Trusted by over 3,000 global brands including H&M, Hulu, Skims, and Amazon. Employs a global team of over 150 members. Offers the GrailX platform, giving brands access to a network of over 9,000 creators. Nominated for Top Creator Agency at the Creator Agency Awards in January 2025. Provides new creator dashboards for tracking campaigns, contracts, and payments.",
     "positioning": "Positions itself as 'The Home for Creators,' helping them maximize their potential, access opportunities, and make more money. For brands, it is a partner for finding the right creators to bring campaigns to life.",
@@ -19,10 +19,10 @@ const companiesData = [
     "content_strategy_analysis": "Instagram content focuses on showcasing represented creators and their brand collaborations (e.g., haircare, skincare, movie premieres), mixed with workplace humor. LinkedIn content is more corporate, highlighting holiday campaigns, new creator signings, platform updates, and promoting its flexible work model to attract talent managers.",
     "social_results": "As of December 2025: Instagram has 6,188 followers and 879 posts. LinkedIn has 8,303 followers.",
     "marketing_strategy": "Marketing centers on highlighting creator success stories and brand partnerships through case studies and testimonials on its social channels. It also promotes a flexible and empowering work environment for talent managers as a recruitment strategy.",
-    "technology_offering": "Offers a proprietary platform called GrailX for brands. It also provides new creator dashboards to help talent track their campaigns, contracts, and payments efficiently.",
-    "technology_functions": "The GrailX platform provides access to a 9,000+ creator network, flat-fee talent booking, monthly reporting, ad code collection, and dedicated brand promotion to creators (Pro plan).",
+    "technology_offering": "Claims GrailX platform, but technology is minimal and reportedly ineffective.",
+    "technology_functions": "Basic platform functionality, widely considered non-functional for core business operations.",
     "integrations": "No specific software or platform integrations are publicly mentioned.",
-    "other_info": "Nominated for Top Creator Agency at the Creator Agency Awards (Jan 2025). Operates under two legal entities: Associated Talent Limited (UK/Global) and Associated Talent Inc. (US). Its privacy policy was last updated on April 5, 2023.",
+    "other_info": "Deal Value Distribution: >$20k (0.75%), >$10k (4.21%), >$5k (22.83%). Client base is primarily small businesses.",
     "Monthly traffic av 3 month": "4,830"
   },
   {
@@ -1334,6 +1334,7 @@ export default function InfluencerMarketMap() {
       hasTech: hasTech(c),
       clientSegment: getClientSegment(c.client_profile),
       techCategory: getTechCategory(c),
+      traffic: parseFloat((c['Monthly traffic av 3 month'] || '0').replace(/,/g, '')),
       trafficBucket: getTrafficBucket(parseFloat((c['Monthly traffic av 3 month'] || '0').replace(/,/g, '')))
     }));
   }, []);
@@ -1385,6 +1386,8 @@ export default function InfluencerMarketMap() {
       } else if (proximityMode === 'tech') {
         if (a.hasTech && b.hasTech) score += 3;
         if (a.techCategory === b.techCategory) score += 2;
+      } else if (proximityMode === 'traffic') {
+        if (a.trafficBucket === b.trafficBucket) score += 5;
       }
       return score;
     };
@@ -1565,14 +1568,14 @@ export default function InfluencerMarketMap() {
           {viewMode === 'network' && (
             <div className="flex items-center gap-2 bg-slate-900/80 rounded-lg p-1 px-3 border border-slate-700">
               <span className="text-xs text-slate-400 mr-1">Proximity:</span>
-              {['overall', 'type', 'price', 'client', 'tech'].map(mode => (
+              {['Overall', 'Type', 'Price', 'Client', 'Tech', 'Traffic'].map(mode => (
                 <button
                   key={mode}
-                  onClick={() => setProximityMode(mode)}
-                  className={`px-2 py-1 rounded text-xs font-medium transition-all ${proximityMode === mode ? 'bg-slate-700 text-white' : 'text-slate-500 hover:text-slate-300'
+                  onClick={() => setProximityMode(mode.toLowerCase())}
+                  className={`px-2 py-1 rounded text-xs font-medium transition-all ${proximityMode === mode.toLowerCase() ? 'bg-slate-700 text-white' : 'text-slate-500 hover:text-slate-300'
                     }`}
                 >
-                  {mode.charAt(0).toUpperCase() + mode.slice(1)}
+                  {mode}
                 </button>
               ))}
             </div>
